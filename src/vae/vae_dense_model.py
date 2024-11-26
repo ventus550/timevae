@@ -8,7 +8,7 @@ from tensorflow.keras.layers import Dense, Input, Flatten, Reshape
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 
-from vae.vae_base import BaseVariationalAutoencoder, Sampling
+from .vae_base import BaseVariationalAutoencoder, Sampling
 
 
 class VariationalAutoencoderDense(BaseVariationalAutoencoder):

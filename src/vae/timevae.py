@@ -20,7 +20,7 @@ from tensorflow.keras.layers import (
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 
-from vae.vae_base import BaseVariationalAutoencoder, Sampling
+from .vae_base import BaseVariationalAutoencoder, Sampling
 
 
 class TrendLayer(Layer):

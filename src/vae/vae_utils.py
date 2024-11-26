@@ -10,9 +10,9 @@ warnings.filterwarnings("ignore")
 
 import tensorflow as tf
 
-from vae.vae_dense_model import VariationalAutoencoderDense as VAE_Dense
-from vae.vae_conv_model import VariationalAutoencoderConv as VAE_Conv
-from vae.timevae import TimeVAE
+from .vae_dense_model import VariationalAutoencoderDense as VAE_Dense
+from .vae_conv_model import VariationalAutoencoderConv as VAE_Conv
+from .timevae import TimeVAE
 
 
 def set_seeds(seed: int = 111) -> None:
